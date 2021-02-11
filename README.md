@@ -136,7 +136,7 @@ $raw = $transport->get('/3.0/admin/users', ['limit' => 10]);
 
 var_dump($raw);
 
-$raw = $transport->post('/3.0/admin/user/api_key/594927bd7e28fe1c4a8b4568');
+$raw = $transport->post('/3.0/admin/user/api_key/594927bd7e28fe1c4a8b4567');
 
 var_dump($raw);
 ```
