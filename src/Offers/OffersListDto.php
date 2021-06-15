@@ -36,7 +36,7 @@ class OffersListDto extends BaseOfferDto
     protected int $noticePercentOvercap;
     protected float $cr;
     protected float $epc;
-    protected string $notes;
+    protected ?string $notes;
     protected string $allowedIp;
     protected string $disallowedIp;
     protected string $hashPassword;
