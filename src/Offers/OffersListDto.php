@@ -36,7 +36,7 @@ class OffersListDto extends BaseOfferDto
     protected int $noticePercentOvercap;
     protected float $cr;
     protected float $epc;
-    protected ?string $notes;
+    protected string $notes;
     protected string $allowedIp;
     protected string $disallowedIp;
     protected string $hashPassword;
@@ -86,7 +86,7 @@ class OffersListDto extends BaseOfferDto
         $this->noticePercentOvercap = $attributes['notice_percent_overcap'];
         $this->cr = $attributes['cr'];
         $this->epc = $attributes['epc'];
-        $this->notes = $attributes['notes'];
+        $this->notes = $attributes['notes'] ?? '';
         $this->allowedIp = $attributes['allowed_ip'];
         $this->disallowedIp = $attributes['disallowed_ip'];
         $this->hashPassword = $attributes['hash_password'];

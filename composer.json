@@ -4,11 +4,12 @@
     "type": "library",
     "keywords": [],
     "require": {
-        "php": ">=7.4",
+        "php": "^7.4 || ^8.0",
         "ext-json": "*",
         "psr/http-factory": "^1.0",
         "psr/http-client": "^1.0",
-        "guzzlehttp/guzzle": "^6.0 || ^7.0"
+        "guzzlehttp/guzzle": "^6.5.2 || ^7.0",
+        "guzzlehttp/psr7": "^1.7.0"
     },
     "require-dev": {
         "http-interop/http-factory-guzzle": "^1.0",
